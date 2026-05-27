@@ -1,0 +1,17 @@
+aiohttp>=3.9.0
+rich>=13.7.0
+asyncio
+json
+csv
+time
+random
+re
+sys
+math
+logging
+hashlib
+datetime
+dataclasses
+pathlib
+typing
+urllib3
