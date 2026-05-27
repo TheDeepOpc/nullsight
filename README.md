@@ -1,66 +1,63 @@
-```markdown
 <span align="center">
 
-# ╔═══════════════════════════════════════════════════════════════╗
-# ║                                                               ║
-# ║   ███╗   ██╗██╗   ██╗██╗██╗     ███████╗██╗ ██████╗ ██╗  ██╗████████╗
-# ║   ████╗  ██║██║   ██║██║██║     ██╔════╝██║██╔════╝ ██║  ██║╚══██╔══╝
-# ║   ██╔██╗ ██║██║   ██║██║██║     ███████╗██║██║  ███╗███████║   ██║     
-# ║   ██║╚██╗██║██║   ██║██║██║     ╚════██║██║██║   ██║██╔══██║   ██║     
-# ║   ██║ ╚████║╚██████╔╝██║███████╗███████║██║╚██████╔╝██║  ██║   ██║     
-# ║   ╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝     
-# ║                                                               ║
-# ║              AUTHORIZED MASS PENETRATION TESTING SCANNER      ║
-# ║                                                               ║
-# ║                      version 1.4 | 2026                       ║
-# ║                                                               ║
-# ╚═══════════════════════════════════════════════════════════════╝
+# ╔═══════════════════════════════════════════════════════════════════════════╗
+# ║                                                                           ║
+# ║  ███╗   ██╗██╗   ██╗██╗     ██╗     ███████╗██╗ ██████╗ ██╗  ██╗████████╗ ║
+# ║  ████╗  ██║██║   ██║██║     ██║     ██╔════╝██║██╔════╝ ██║  ██║╚══██╔══╝ ║
+# ║  ██╔██╗ ██║██║   ██║██║     ██║     ███████╗██║██║  ███╗███████║   ██║    ║
+# ║  ██║╚██╗██║██║   ██║██║     ██║     ╚════██║██║██║   ██║██╔══██║   ██║    ║
+# ║  ██║ ╚████║╚██████╔╝███████╗███████╗███████║██║╚██████╔╝██║  ██║   ██║    ║
+# ║  ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝    ║
+# ║                                                                           ║ 
+# ║                AUTHORIZED BULK PENETRATION TESTING SCANNER                ║
+# ║                                                                           ║
+# ║                            version 1.4 | 2026                             ║
+# ║                                                                           ║
+# ╚═══════════════════════════════════════════════════════════════════════════╝
 
 </span>
 
-## 🎯 ABOUT
+##  ABOUT
 
 **NullSight** is a professional, authorized mass penetration testing scanner designed for security researchers and penetration testers. It combines multiple attack vectors, misconfiguration detection, and supply chain analysis into a single powerful tool.
 
-```
+```text
 ╔═══════════════════════════════════════════════════════════════════════════════════════════════════╗
 ║                                    == COVERAGE ==                                                 ║
 ╠═══════════════════════════════════════════════════════════════════════════════════════════════════╣
 ║                                                                                                   ║
-║   🚀 40+ NEW CVE PAYLOADS                                                                         ║
+║    40+ NEW CVE PAYLOADS                                                                           ║
 ║      • Vite, Next.js, Laravel, Yii, Rails, Spring, and more                                       ║
 ║                                                                                                   ║
-║   🎯 FRAMEWORK-SPECIFIC INJECTIONS                                                                ║
+║    FRAMEWORK-SPECIFIC INJECTIONS                                                                  ║
 ║      • ReactToShell • NginxToShell • SSI Injection Probes                                         ║
 ║                                                                                                   ║
-║   ⚙️ MISCONFIGURATION ENGINE                                                                      ║
+║    MISCONFIGURATION ENGINE                                                                        ║
 ║      • Yii debug • Laravel debug • Django DEBUG=True                                              ║
 ║                                                                                                   ║
-║   📦 SUPPLY CHAIN SECURITY                                                                        ║
+║    SUPPLY CHAIN SECURITY                                                                          ║
 ║      • Deep inspection: package.json, composer.json, requirements.txt                             ║
 ║                                                                                                   ║
-║   🌐 SSRF PROBES                                                                                  ║
+║    SSRF PROBES                                                                                    ║
 ║      • Cloud metadata: AWS / GCP / Azure / Alibaba / DigitalOcean / Hetzner                       ║
 ║                                                                                                   ║
-║   📊 API SECURITY                                                                                 ║
+║    API SECURITY                                                                                   ║
 ║      • GraphQL introspection abuse • JWT weak secret / alg:none detection                         ║
 ║                                                                                                   ║
-║   🗄️ UNAUTHENTICATED DATABASE PROBES                                                              ║
+║    UNAUTHENTICATED DATABASE PROBES                                                                ║
 ║      • Redis • Memcached • MongoDB                                                                ║
 ║                                                                                                   ║
-║   🔬 PROTOTYPE POLLUTION                                                                          ║
+║    PROTOTYPE POLLUTION                                                                            ║
 ║      • JSON body injection probes                                                                 ║
 ║                                                                                                   ║
-║   📁 LFI CHAINING                                                                                 ║
+║    LFI CHAINING                                                                                   ║
 ║      • PHP wrappers: php://filter • expect:// • data://                                           ║
 ║                                                                                                   ║
-║   🎯 SMART DETECTION ENGINE                                                                       ║
+║    SMART DETECTION ENGINE                                                                         ║
 ║      • Entropy-based FP filtering • Status-code aware • Redirect-aware                            ║
 ║                                                                                                   ║
-║   🔴 SEVERITY LEVELS                                                                              ║
-║      • CRITICAL • HIGH • MEDIUM • LOW • INFO (Nuclei-style)                                       ║
 ║                                                                                                   ║
-║   📄 MULTI-FORMAT REPORT                                                                          ║
+║    MULTI-FORMAT REPORT                                                                            ║
 ║      • JSON • CSV • Markdown • Terminal                                                           ║
 ║                                                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -120,50 +117,50 @@ python3 nullsight.py -u https://example.com --lfi
 
 ### Full Command Reference
 
-```bash
-┌─────────────────────────────────────────────────────────────────────────────┐
-│  NullSight - Authorized Mass Penetration Testing Scanner                    │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  USAGE:                                                                      │
-│    python3 nullsight.py -u <URL>                                            │
-│    python3 nullsight.py -l <file>                                           │
-│    python3 nullsight.py -d <domain> --subdomains                            │
-│                                                                              │
-│  OPTIONS:                                                                    │
-│    -u, --url           Target URL (http://example.com)                      │
-│    -l, --list          File containing list of targets                      │
-│    -d, --domain        Domain for subdomain enumeration                     │
-│    -t, --threads       Number of threads (default: 20)                      │
-│    -o, --output        Output format: json, csv, md, terminal               │
-│    -r, --report        Report filename                                       │
-│    --subdomains        Enable subdomain enumeration                         │
-│    --cve-only          Scan only CVE payloads                               │
-│    --ssrf              SSRF probes only                                     │
-│    --graphql           GraphQL introspection only                           │
-│    --lfi               LFI chaining only                                    │
-│    --timeout           Request timeout (default: 10)                        │
-│    --verbose           Verbose output                                        │
-│    -v, --version       Show version                                         │
-│    -h, --help          Show this help                                       │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│  NullSight - Authorized Mass Penetration Testing Scanner                   │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
+│  USAGE:                                                                    │
+│    python3 nullsight.py -u <URL>                                           │
+│    python3 nullsight.py -l <file>                                          │
+│    python3 nullsight.py -d <domain> --subdomains                           │
+│                                                                            │
+│  OPTIONS:                                                                  │
+│    -u, --url           Target URL (http://example.com)                     │
+│    -l, --list          File containing list of targets                     │
+│    -d, --domain        Domain for subdomain enumeration                    │
+│    -t, --threads       Number of threads (default: 20)                     │
+│    -o, --output        Output format: json, csv, md, terminal              │
+│    -r, --report        Report filename                                     │
+│    --subdomains        Enable subdomain enumeration                        │
+│    --cve-only          Scan only CVE payloads                              │
+│    --ssrf              SSRF probes only                                    │
+│    --graphql           GraphQL introspection only                          │
+│    --lfi               LFI chaining only                                   │
+│    --timeout           Request timeout (default: 10)                       │
+│    --verbose           Verbose output                                      │
+│    -v, --version       Show version                                        │
+│    -h, --help          Show this help                                      │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📊 SEVERITY LEVELS
+##   SEVERITY LEVELS
 
-```
-╔═══════════════════════════════════════════════════════════════════════════════╗
-║                                                                                ║
+```text
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
 ║   ██████████  CRITICAL  ─── Remote Code Execution, Full System Compromise    ║
 ║   ████████    HIGH      ─── Sensitive Data Exposure, Privilege Escalation    ║
 ║   ██████      MEDIUM    ─── Information Disclosure, Path Traversal           ║
 ║   ████        LOW       ─── Debug Mode Enabled, Version Disclosure           ║
 ║   ██          INFO      ─── Technology Detection, Open Ports                 ║
-║                                                                                ║
-╚═══════════════════════════════════════════════════════════════════════════════╝
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -174,7 +171,7 @@ python3 nullsight.py -u https://example.com --lfi
 
 ```json
 {
-  "target": "https://example.com",
+  "target": "https://example.uz",
   "timestamp": "2026-05-28T12:00:00",
   "severity": "CRITICAL",
   "findings": [
@@ -190,37 +187,37 @@ python3 nullsight.py -u https://example.com --lfi
 
 ### Terminal Format
 
-```bash
-╔══════════════════════════════════════════════════════════════════╗
-║  [CRITICAL] LFI detected on https://example.com                 ║
-║  ────────────────────────────────────────────────────────────────║
-║  Payload: php://filter/convert.base64-encode/resource=/etc/passwd║
-║  Evidence: root:x:0:0:root:/root:/bin/bash                      ║
-╚══════════════════════════════════════════════════════════════════╝
+```text
+╔═══════════════════════════════════════════════════════════════════╗
+║  [CRITICAL] LFI detected on https://example.com                   ║
+║  ───────────────────────────────────────────────────────────────  ║
+║  Payload: php://filter/convert.base64-encode/resource=/etc/passwd ║
+║  Evidence: root:x:0:0:root:/root:/bin/bash                        ║
+╚═══════════════════════════════════════════════════════════════════╝
 
 ╔══════════════════════════════════════════════════════════════════╗
-║  [HIGH] SSRF - AWS Metadata accessible                          ║
-║  ────────────────────────────────────────────────────────────────║
-║  Endpoint: http://169.254.169.254/latest/meta-data/             ║
-║  Response: instance-id, ami-id, hostname                        ║
+║  [HIGH] SSRF - AWS Metadata accessible                           ║
+║  ─────────────────────────────────────────────────────────────── ║
+║  Endpoint: http://169.254.169.254/latest/meta-data/              ║
+║  Response: instance-id, ami-id, hostname                         ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## 🛡️ DISCLAIMER
+## DISCLAIMER
 
-```
-╔═══════════════════════════════════════════════════════════════════════════════╗
-║                           ⚠️  WARNING  ⚠️                                     ║
-║                                                                                ║
-║   This tool is designed for AUTHORIZED penetration testing only.              ║
-║   Unauthorized scanning of systems you don't own is ILLEGAL.                  ║
-║                                                                                ║
-║   The author (TheDEEP) is not responsible for any misuse of this tool.        ║
-║   Always obtain proper written permission before testing.                     ║
-║                                                                                ║
-╚═══════════════════════════════════════════════════════════════════════════════╝
+```text
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                           ⚠️  WARNING  ⚠️                                   ║
+║                                                                              ║
+║   This tool is designed for AUTHORIZED penetration testing only.             ║
+║   Unauthorized scanning of systems you don't own is ILLEGAL.                 ║
+║                                                                              ║
+║   The author (TheDEEP) is not responsible for any misuse of this tool.       ║
+║   Always obtain proper written permission before testing.                    ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -230,7 +227,7 @@ python3 nullsight.py -u https://example.com --lfi
 - **Author**: TheDEEP
 - **Version**: 1.4
 - **Year**: 2026
-- **Website**: [www.thedeep.uz](https://www.thedeep.uz)
+- **Website**: https://www.thedeep.uz
 
 ---
 
@@ -243,4 +240,3 @@ This project is for educational and authorized testing purposes only.
 <p align="center">
   <b>Use responsibly. Stay legal. Hack ethically.</b>
 </p>
-```
