@@ -1,4 +1,4 @@
-<span align="center">
+<img width="977" height="870" alt="image" src="https://github.com/user-attachments/assets/dad468c6-90b1-44af-b61e-d12896e70b0d" /><span align="center">
 
 # NullSight - Authorized Bulk Penetration Testing Scanner
 
@@ -80,6 +80,9 @@ python3 nullsight.py -u https://example.com
 
 # Multiple targets from file
 python3 nullsight.py -l targets.txt
+
+# fast mass scan
+python3 nullsight.py -c 300 -t 6 --connect-timeout 3 --read-timeout 5
 
 # With subdomain enumeration
 python3 nullsight.py -d example.com --subdomains
